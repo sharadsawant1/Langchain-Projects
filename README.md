@@ -1,5 +1,6 @@
 # Langchain-Projects
-# RAG-Based PDF Reader
+# AI-Powered PDF Reader with RAG for Contextual Understanding
+
 
 ## 📌 Project Overview
 This project is an **AI-powered PDF Reader** that utilizes **Retrieval-Augmented Generation (RAG)** to extract content from PDF documents and generate intelligent responses to user queries. It leverages **Google Gemini AI** for text generation and **FAISS** for efficient document retrieval.
@@ -57,8 +58,6 @@ streamlit run app.py
 3. Enter a query related to the PDF content.
 4. The system retrieves relevant chunks and generates an AI-powered response.
 
-## 📷 Screenshot
-![App Screenshot](screenshot.png)
 
 ## 💡 Future Enhancements
 - 🗂️ **Multi-PDF Support**
