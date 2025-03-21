@@ -65,8 +65,6 @@ streamlit run app.py
 - 🌍 **Multilingual Support**
 - 🎤 **Voice-based Querying**
 
-## 📜 License
-This project is licensed under the MIT License.
 
 ## 🤝 Contributing
 Pull requests are welcome! If you have suggestions, please open an issue.
