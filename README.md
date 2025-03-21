@@ -73,6 +73,6 @@ This project is licensed under the MIT License.
 Pull requests are welcome! If you have suggestions, please open an issue.
 
 ## 📩 Contact
-For queries, reach out at [your-email@example.com](mailto:your-email@example.com).
+For queries, reach out at [your-email@example.com](mailto:swntshrd1@gmail.com).
 
 
