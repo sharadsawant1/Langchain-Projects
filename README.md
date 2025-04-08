@@ -1,20 +1,20 @@
-# Langchain-Projects
-# AI-Powered PDF Reader with RAG for Contextual Understanding
 
+
+# PDF QA System with RAG
 
 ## 📌 Project Overview
-This project is an **AI-powered PDF Reader** that utilizes **Retrieval-Augmented Generation (RAG)** to extract content from PDF documents and generate intelligent responses to user queries. It leverages **Google Gemini AI** for text generation and **FAISS** for efficient document retrieval.
+This project is a **PDF QA System** that leverages **Retrieval-Augmented Generation (RAG)** to extract content from PDF documents and provide intelligent answers to user questions. It integrates **Google Gemini AI** for text generation and **FAISS** for efficient document retrieval.
 
 ## 🚀 Features
 - 📄 **PDF Upload & Text Extraction** using `PyPDFLoader`
-- 🔍 **Semantic Search** with FAISS and Google AI embeddings
-- 🤖 **RAG-Based Question Answering** using `gemini-1.5-pro`
-- 🎯 **Optimized Chunking** for better document understanding
-- 🖥️ **User-friendly Interface** powered by `Streamlit`
+- 🔍 **Semantic Search** powered by FAISS and Google AI embeddings
+- 🤖 **RAG-Based Question Answering** with `gemini-1.5-pro`
+- 🎯 **Optimized Chunking** for enhanced document comprehension
+- 🖥️ **User-Friendly Interface** built with `Streamlit`
 
 ## 🛠️ Tech Stack
-- **Python** (Primary Language)
-- **Streamlit** (Frontend UI)
+- **Python** (Core Language)
+- **Streamlit** (Frontend Interface)
 - **LangChain** (AI Framework)
 - **Google Generative AI** (`gemini-1.5-pro` for LLM, `embedding-001` for embeddings)
 - **FAISS** (Vector Database)
@@ -47,29 +47,27 @@ GOOGLE_API_KEY=your-google-api-key
 ```
 
 ## ▶️ Usage
-Run the application with:
+Launch the application with:
 ```bash
 streamlit run app.py
 ```
 
 ### 📌 How It Works:
 1. Upload a PDF file.
-2. The system extracts and chunks the text.
-3. Enter a query related to the PDF content.
-4. The system retrieves relevant chunks and generates an AI-powered response.
-
+2. The system extracts and segments the text into chunks.
+3. Ask a question related to the PDF content.
+4. The system retrieves relevant text chunks and delivers an AI-generated response.
 
 ## 💡 Future Enhancements
-- 🗂️ **Multi-PDF Support**
-- 🔍 **Better Chunking Strategy** (Sliding Window, Sentence Splitting)
-- 🌍 **Multilingual Support**
-- 🎤 **Voice-based Querying**
-
+- 🗂️ **Support for Multiple PDFs**
+- 🔍 **Improved Chunking Techniques** (e.g., Sliding Window, Sentence Splitting)
+- 🌍 **Multilingual Capabilities**
+- 🎤 **Voice-Activated Queries**
 
 ## 🤝 Contributing
-Pull requests are welcome! If you have suggestions, please open an issue.
+Contributions are encouraged! Feel free to submit pull requests or open issues for suggestions.
 
 ## 📩 Contact
-For queries, reach out at [your-email@example.com](mailto:swntshrd1@gmail.com).
+For questions, contact [your-email@example.com](mailto:swntshrd1@gmail.com).
 
-
+---
